@@ -1,4 +1,4 @@
-#Skäggkollen.nu  [![Build Status](https://api.travis-ci.org/frednordell/skaggkollen.svg?branch=master)](https://travis-ci.org/frednordell/skaggkollen)
+# Skäggkollen.nu  [![Build Status](https://api.travis-ci.org/frednordell/skaggkollen.svg?branch=master)](https://travis-ci.org/frednordell/skaggkollen)
 
 This is the source code for skäggkollen.nu, a website with no real prupose but the domainname was $1.
 
