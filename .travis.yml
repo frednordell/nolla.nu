@@ -1,17 +1,13 @@
 language: node_js
 node_js:
-- stable
+  - stable
 cache:
   directories:
   - node_modules
 script:
-- npm test
-- npm run build
-deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: build
-  on:
-    branch: master
-  github_token:
-    secure: I629qNq1O5kDqOqDBtydgNmkpkJyxy7YNee9GAf3S2YVoOTf4dibsfUZurYbZFcc+MDYd7ywPRrlfxBHM7kmmcJGFbER3nLVnQOXbVp7xBdZWOrNzGxMJlilRHofu4ZZb95ZM1C+vuzOVTvT5ft7c0vge7h8GCE0X7XXuBWr9MhgbDibRbofwnGprHMx/k5IVyTCq+w6utI2DK5YP0yKrzPbEeEjFUqPgJ4Q85GXzqsa3MVxk4DZ+k5N8DwTgxGc6hyMIYNCx9QBjroQgcXLOX/r8wOa/rKHaRNSRI0KZSJ37AAQcFS6Cl9cepHFD98Y2QecBHvSHKF9O2OMlGZcZWBx+WyL5J/w85WF41lkszxfqZDb0pRXUKp6O0wH0K0FW5HTLcLtq+gWpgFx5oyx1nljyEkleSvLPfe3NUuAAUmZdnW0pvG5fEpRnntUluDIgUpDL+8RijoQ4JJ7ibLjqtyj0BhhfZzCJPNcIiZvLnGyk9gl8WmVOqtdI3X4HqIl+uq9DFp4Kd4L/DmCTSP6WRtWtNw0rRfzJYVJMUnnF9uPQJG84cVkle+G4i+mXGhX9DplSZN678iSxMVBeokA+zT9pGlfy0Cx5Q6i6IXHq+/cXSoWQaJxK+1xcngT3sRuoexoFn/ew816iwEzPUlk5HiN4REmj95VUiyQ7ATuK0E=
+  - npm test
+  - npm run build
+branches:
+  only:
+    - staging
+    - trying
