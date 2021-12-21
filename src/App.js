@@ -7,38 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Grid container direction="row" justify="center" alignItems="center" spacing={16}>
-          <Grid item xs={2}>
-            <Paper>
-              Hej1
-            </Paper>
-          </Grid>
-          <Grid item xs={2}>
-            <Paper>
-              Hej1
-            </Paper>
-          </Grid>
-          <Grid item xs={2}>
-            <Paper>
-              Hej1
-            </Paper>
-          </Grid>
-          <Grid item xs={2}>
-            <Paper>
-              Hej1
-            </Paper>
-          </Grid>
-          <Grid item xs={2}>
-            <Paper>
-              Hej1
-            </Paper>
-          </Grid>
-          <Grid item xs={2}>
-            <Paper>
-              Hej1
-            </Paper>
-          </Grid>
-        </Grid>
+
       </div>
     );
   }
